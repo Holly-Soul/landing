@@ -54,8 +54,7 @@
 
 @font-face {
   font-family: "Source Sans Pro";
-  src: url("../fonts/SourceSansPro-Bold.woff2") format("woff2"),
-    url("../fonts/SourceSansPro-Bold.woff") format("woff");
+  src: url("../fonts/SourceSansPro-Bold.woff2") format("woff2"), url("../fonts/SourceSansPro-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -388,6 +387,7 @@ button {
   margin-top: 30px;
   padding: 0 50px;
   font-size: 22px;
+  padding-right: 231px;
 }
 .subscride-container {
   display: flex;
@@ -640,7 +640,6 @@ button {
   background: none;
   width: 350px;
   border-bottom: 1px solid #000;
-  font-size: 22px;
 }
 .mail {
   border: none;
@@ -648,7 +647,6 @@ button {
   background: none;
   width: 350px;
   border-bottom: 1px solid #000;
-  font-size: 22px;
 }
 .message {
   width: 330px;
@@ -660,7 +658,6 @@ button {
   height: 115px;
   resize: none;
   background: url("../img/Message-Line.png") 0 32px no-repeat;
-  font-size: 20px;
 }
 .form-name {
   font-size: 21px;
@@ -1113,6 +1110,8 @@ button {
     width: 450px;
     height: 50px;
     font-size: 18px;
+    padding: 0 13px;
+    padding-right: 191px;
   }
   .input-button {
     width: 150px;
@@ -1312,7 +1311,8 @@ button {
     width: 300px;
     height: 40px;
     font-size: 12px;
-    padding-left: 8px;
+    padding-left: 15px;
+    padding-right: 132px;
   }
   .input-button {
     width: 90px;
