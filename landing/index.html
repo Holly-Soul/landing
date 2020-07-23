@@ -14,15 +14,17 @@
         src="img/header-top-bg.png"
         alt="header-top-bg"
       />
-
       <div class="header-top">
-        <div class="header-logo">
-          <img src="img/logo.svg" alt="logo" class="header-logo__img" />
+        <div class="top-burger">
+          <div class="header-logo">
+            <img src="img/logo.svg" alt="logo" class="header-logo__img" />
+          </div>
+          <div class="header__burger">
+            <span></span>
+          </div>
         </div>
-        <div class="header__burger">
-          <span></span>
-        </div>
-        <nav>
+
+        <nav class="header__menu">
           <ul class="header-nav">
             <li><a class="nav-link" href="#">Main</a></li>
             <li><a class="nav-link" href="#">Data</a></li>
@@ -34,7 +36,7 @@
             <li><a class="nav-link" href="#">Contacts</a></li>
           </ul>
         </nav>
-        <div class="authorization">
+        <div data-da="header__menu,2,992" class="authorization">
           <a href="#" class="register">
             <img
               src="img/OnHoverCircle.png"
@@ -48,8 +50,7 @@
             <img src="img/OnHoverCircle.png" alt="HoverCircle" class="reg-dot"
           /></a>
         </div>
-
-        <a href="#" class="select-lang">
+        <a data-da="header__menu,3,992" href="#" class="select-lang">
           <img src="img/en-flag.png" alt="en-flag" class="country-flag" />
         </a>
       </div>
@@ -428,4 +429,8 @@
       <span class="bottom-message">ABC Coin. All Rights Reserved. 2020</span>
     </div>
   </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/da.js"></script>
+  <script src="js/script.js"></script>
 </html>
